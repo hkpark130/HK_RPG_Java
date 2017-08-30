@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="623.0" prefWidth="325.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutX="5.0" layoutY="13.0" prefHeight="50.0" prefWidth="300.0" />
+      <AnchorPane layoutX="15.0" layoutY="23.0" prefHeight="50.0" prefWidth="300.0">
+         <children>
+            <ImageView id="sellItemImg1" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../reImages/invenEmpty.png" />
+               </image>
+            </ImageView>
+            <Label id="sellItemName1" layoutX="59.0" layoutY="3.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label id="sellItemGrade1" layoutX="59.0" layoutY="26.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label id="sellItemCost1" layoutX="153.0" layoutY="26.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Button id="btnSell1" layoutX="220.0" layoutY="3.0" mnemonicParsing="false" text="판매" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="15.0" layoutY="73.0" prefHeight="50.0" prefWidth="300.0">
+         <children>
+            <ImageView id="sellItemImg2" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../reImages/invenEmpty.png" />
+               </image>
+            </ImageView>
+            <Label id="sellItemName2" layoutX="59.0" layoutY="3.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label id="sellItemGrade2" layoutX="59.0" layoutY="26.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label id="sellItemCost2" layoutX="153.0" layoutY="26.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Button id="btnSell2" layoutX="220.0" layoutY="3.0" mnemonicParsing="false" text="판매" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="15.0" layoutY="123.0" prefHeight="50.0" prefWidth="300.0">
+         <children>
+            <ImageView id="sellItemImg3" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../reImages/invenEmpty.png" />
+               </image>
+            </ImageView>
+            <Label id="sellItemName3" layoutX="59.0" layoutY="3.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label id="sellItemGrade3" layoutX="59.0" layoutY="26.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label id="sellItemCost3" layoutX="153.0" layoutY="26.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Button id="btnSell3" layoutX="220.0" layoutY="3.0" mnemonicParsing="false" text="판매" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="15.0" layoutY="173.0" prefHeight="50.0" prefWidth="300.0">
+         <children>
+            <ImageView id="sellItemImg4" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../reImages/invenEmpty.png" />
+               </image>
+            </ImageView>
+            <Label id="sellItemName4" layoutX="59.0" layoutY="3.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label id="sellItemGrade4" layoutX="59.0" layoutY="26.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label id="sellItemCost4" layoutX="153.0" layoutY="26.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Button id="btnSell4" layoutX="220.0" layoutY="3.0" mnemonicParsing="false" text="판매" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="15.0" layoutY="223.0" prefHeight="50.0" prefWidth="300.0">
+         <children>
+            <ImageView id="sellItemImg5" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../reImages/invenEmpty.png" />
+               </image>
+            </ImageView>
+            <Label id="sellItemName5" layoutX="59.0" layoutY="3.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label id="sellItemGrade5" layoutX="59.0" layoutY="26.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label id="sellItemCost5" layoutX="153.0" layoutY="26.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Button id="btnSell5" layoutX="220.0" layoutY="3.0" mnemonicParsing="false" text="판매" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="15.0" layoutY="273.0" prefHeight="50.0" prefWidth="300.0">
+         <children>
+            <ImageView id="sellItemImg6" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../reImages/invenEmpty.png" />
+               </image>
+            </ImageView>
+            <Label id="sellItemName6" layoutX="59.0" layoutY="3.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label id="sellItemGrade6" layoutX="59.0" layoutY="26.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label id="sellItemCost6" layoutX="153.0" layoutY="26.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Button id="btnSell6" layoutX="220.0" layoutY="3.0" mnemonicParsing="false" text="판매" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="15.0" layoutY="323.0" prefHeight="50.0" prefWidth="300.0">
+         <children>
+            <ImageView id="sellItemImg7" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../reImages/invenEmpty.png" />
+               </image>
+            </ImageView>
+            <Label id="sellItemName7" layoutX="59.0" layoutY="3.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label id="sellItemGrade7" layoutX="59.0" layoutY="26.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label id="sellItemCost7" layoutX="153.0" layoutY="26.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Button id="btnSell7" layoutX="220.0" layoutY="3.0" mnemonicParsing="false" text="판매" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="15.0" layoutY="373.0" prefHeight="50.0" prefWidth="300.0">
+         <children>
+            <ImageView id="sellItemImg8" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../reImages/invenEmpty.png" />
+               </image>
+            </ImageView>
+            <Label id="sellItemName8" layoutX="59.0" layoutY="3.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label id="sellItemGrade8" layoutX="59.0" layoutY="26.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label id="sellItemCost8" layoutX="153.0" layoutY="26.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Button id="btnSell8" layoutX="220.0" layoutY="3.0" mnemonicParsing="false" text="판매" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="15.0" layoutY="423.0" prefHeight="50.0" prefWidth="300.0">
+         <children>
+            <ImageView id="sellItemImg9" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../reImages/invenEmpty.png" />
+               </image>
+            </ImageView>
+            <Label id="sellItemName9" layoutX="59.0" layoutY="3.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label id="sellItemGrade9" layoutX="59.0" layoutY="26.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label id="sellItemCost9" layoutX="153.0" layoutY="26.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Button id="btnSell9" layoutX="220.0" layoutY="3.0" mnemonicParsing="false" text="판매" />
+         </children>
+      </AnchorPane>
+      <Button id="exit" layoutX="291.0" layoutY="3.0" mnemonicParsing="false" text="X">
+         <effect>
+            <SepiaTone />
+         </effect>
+      </Button>
+      <AnchorPane layoutX="15.0" layoutY="473.0" prefHeight="50.0" prefWidth="300.0">
+         <children>
+            <ImageView id="sellItemImg10" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../reImages/invenEmpty.png" />
+               </image>
+            </ImageView>
+            <Label id="sellItemName10" layoutX="59.0" layoutY="3.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label id="sellItemGrade10" layoutX="59.0" layoutY="26.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label id="sellItemCost10" layoutX="153.0" layoutY="26.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Button id="btnSell10" layoutX="220.0" layoutY="3.0" mnemonicParsing="false" text="판매" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="15.0" layoutY="523.0" prefHeight="50.0" prefWidth="300.0">
+         <children>
+            <ImageView id="sellItemImg11" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../reImages/invenEmpty.png" />
+               </image>
+            </ImageView>
+            <Label id="sellItemName11" layoutX="59.0" layoutY="3.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label id="sellItemGrade11" layoutX="59.0" layoutY="26.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label id="sellItemCost11" layoutX="153.0" layoutY="26.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Button id="btnSell11" layoutX="220.0" layoutY="3.0" mnemonicParsing="false" text="판매" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="15.0" layoutY="573.0" prefHeight="50.0" prefWidth="300.0">
+         <children>
+            <ImageView id="sellItemImg12" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../reImages/invenEmpty.png" />
+               </image>
+            </ImageView>
+            <Label id="sellItemName12" layoutX="59.0" layoutY="3.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label id="sellItemGrade12" layoutX="59.0" layoutY="26.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label id="sellItemCost12" layoutX="153.0" layoutY="26.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Button id="btnSell12" layoutX="220.0" layoutY="3.0" mnemonicParsing="false" text="판매" />
+         </children>
+      </AnchorPane>
+   </children>
+   <padding>
+      <Insets left="5.0" top="5.0" />
+   </padding>
+</AnchorPane>

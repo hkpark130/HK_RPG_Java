@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="668.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="rpg.BattleController">
+   <children>
+      <ImageView fx:id="battleStage" fitHeight="668.0" fitWidth="750.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/canyon.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="25.0" layoutY="348.0" opacity="0.68" prefHeight="300.0" prefWidth="186.0" style="-fx-background-color: white">
+         <children>
+            <Label layoutX="25.0" layoutY="14.0" text="ATK">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="25.0" layoutY="37.0" text="DEF">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="25.0" layoutY="60.0" text="HP">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label id="atkItemLabel" fx:id="atkItemLabel" layoutX="25.0" layoutY="106.0" text="MP" textFill="#ff9500">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label id="myHp" fx:id="myHp" layoutX="68.0" layoutY="61.0" text="HP">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label id="myAtk" fx:id="myAtk" layoutX="68.0" layoutY="15.0" text="ATK">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label id="myDef" fx:id="myDef" layoutX="69.0" layoutY="37.0" text="DEF">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <ProgressBar fx:id="myHpBar" layoutX="24.0" layoutY="80.0" prefHeight="18.0" prefWidth="131.0" progress="0.0" />
+            <Button fx:id="btnAttack" layoutX="27.0" layoutY="192.0" mnemonicParsing="false" text="1. 공격하기" />
+            <Button fx:id="btnTool" layoutX="27.0" layoutY="225.0" mnemonicParsing="false" text="2. 도구사용" />
+            <Button fx:id="btnOut" layoutX="27.0" layoutY="258.0" mnemonicParsing="false" text="3. 나가기" />
+            <Label id="atkItemAbility" fx:id="atkItemAbility" layoutX="24.0" layoutY="144.0" text="MP" textFill="#04ff00">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="300.0" fitWidth="186.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../../images/textarea.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="554.0" layoutY="23.0" opacity="0.68" prefHeight="128.0" prefWidth="173.0" style="-fx-background-color: white">
+         <children>
+            <ProgressBar id="comHpBar" fx:id="comHpBar" layoutX="24.0" layoutY="75.0" prefHeight="18.0" prefWidth="131.0" progress="0.0" />
+            <Label id="comDef" fx:id="comDef" layoutX="68.0" layoutY="35.0" text="DEF">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label id="comAtk" fx:id="comAtk" layoutX="67.0" layoutY="15.0" text="ATK">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label id="comHp" fx:id="comHp" layoutX="67.0" layoutY="57.0" text="HP">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label id="comLv" fx:id="comLv" layoutX="67.0" layoutY="98.0" text="LV">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="25.0" layoutY="98.0" text="LV">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="24.0" layoutY="56.0" text="HP">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="24.0" layoutY="35.0" text="DEF">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="24.0" layoutY="14.0" text="ATK">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="128.0" fitWidth="173.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../../images/textarea.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <ImageView id="comImg" fx:id="comImg" fitHeight="465.0" fitWidth="456.0" layoutX="147.0" layoutY="116.0" pickOnBounds="true" />
+      <ImageView fx:id="comAttackImg" fitHeight="300.0" fitWidth="283.0" layoutX="234.0" layoutY="184.0" pickOnBounds="true" />
+      <TextArea fx:id="textAction" editable="false" layoutX="245.0" layoutY="348.0" opacity="0.7" prefHeight="300.0" prefWidth="474.0">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <padding>
+            <Insets left="10.0" top="10.0" />
+         </padding></TextArea>
+      <ImageView fitHeight="300.0" fitWidth="523.0" layoutX="245.0" layoutY="348.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/textarea.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="round" layoutX="329.0" layoutY="15.0" text="Label" textFill="#ffee00">
+         <font>
+            <Font name="Forte" size="27.0" />
+         </font>
+      </Label>
+      <Label id="comLv" fx:id="comName" layoutX="343.0" layoutY="101.0" text="LV" textFill="#87abff">
+         <font>
+            <Font name="Century Gothic" size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="isBossLabel" layoutX="290.0" layoutY="46.0" text="BOSS" textFill="RED">
+         <font>
+            <Font name="Franklin Gothic Demi" size="57.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

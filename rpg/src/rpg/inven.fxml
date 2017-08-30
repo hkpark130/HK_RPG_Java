@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="401.0" prefWidth="470.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="432.0" fitWidth="470.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/inventable.png" />
+         </image>
+      </ImageView>
+      <ImageView id="item1" fitHeight="100.0" fitWidth="100.0" layoutX="23.0" layoutY="58.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView id="item2" fitHeight="100.0" fitWidth="100.0" layoutX="130.0" layoutY="58.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView id="item3" fitHeight="100.0" fitWidth="100.0" layoutX="239.0" layoutY="58.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView id="item6" fitHeight="100.0" fitWidth="100.0" layoutX="130.0" layoutY="163.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView id="item5" fitHeight="100.0" fitWidth="100.0" layoutX="23.0" layoutY="163.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView id="item4" fitHeight="100.0" fitWidth="100.0" layoutX="348.0" layoutY="58.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView id="item7" fitHeight="100.0" fitWidth="100.0" layoutX="239.0" layoutY="163.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView id="item8" fitHeight="100.0" fitWidth="100.0" layoutX="348.0" layoutY="163.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView id="item9" fitHeight="100.0" fitWidth="100.0" layoutX="23.0" layoutY="268.0" pickOnBounds="true" preserveRatio="true" />
+      <Button id="invenCancelBtn" layoutX="433.0" mnemonicParsing="false" opacity="0.2" prefHeight="36.0" prefWidth="36.0" text="X" />
+      <ImageView fitHeight="36.0" fitWidth="50.0" layoutX="37.0" layoutY="381.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../reImages/gold.JPG" />
+         </image>
+      </ImageView>
+      <Label id="goldLabel" layoutX="101.0" layoutY="385.0" text="Label" textFill="#97a139">
+         <font>
+            <Font name="휴먼옛체" size="24.0" />
+         </font>
+         <effect>
+            <SepiaTone>
+               <input>
+                  <DropShadow color="#e5ff00" spread="0.8" />
+               </input>
+            </SepiaTone>
+         </effect>
+      </Label>
+      <ImageView id="item10" fitHeight="100.0" fitWidth="100.0" layoutX="130.0" layoutY="268.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView id="item11" fitHeight="100.0" fitWidth="100.0" layoutX="239.0" layoutY="268.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView id="item12" fitHeight="100.0" fitWidth="100.0" layoutX="348.0" layoutY="268.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+   <padding>
+      <Insets bottom="5.0" />
+   </padding>
+</AnchorPane>

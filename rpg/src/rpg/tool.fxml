@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="200.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="217.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/tool.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="25.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../reImages/hp.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="22.0" layoutY="114.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../reImages/mp.jpg" />
+         </image>
+      </ImageView>
+      <Label id="hpToolName" layoutX="85.0" layoutY="25.0" text="HP Potion" textFill="RED">
+         <font>
+            <Font size="17.0" />
+         </font></Label>
+      <Label layoutX="85.0" layoutY="42.0" text="Grade" />
+      <Label layoutX="85.0" layoutY="60.0" text="Quantity" />
+      <Label id="hpToolGrade" layoutX="154.0" layoutY="46.0" text="0" />
+      <Label id="hpToolQuan" layoutX="154.0" layoutY="60.0" text="0" />
+      <Label id="mpToolQuan" layoutX="159.0" layoutY="152.0" text="0" />
+      <Label id="mpToolGrade" layoutX="159.0" layoutY="138.0" text="0" />
+      <Label layoutX="90.0" layoutY="152.0" text="Quantity" />
+      <Label layoutX="90.0" layoutY="134.0" text="Grade" />
+      <Label id="mpToolName" layoutX="90.0" layoutY="117.0" text="MP Potion" textFill="#000dff">
+         <font>
+            <Font name="휴먼옛체" size="17.0" />
+         </font></Label>
+      <Button id="useHpTool" layoutX="53.0" layoutY="85.0" mnemonicParsing="false" text="HP 사용하기" textFill="RED" />
+      <Button id="useMpTool" layoutX="53.0" layoutY="174.0" mnemonicParsing="false" text="MP 사용하기" textFill="#0d00ff" />
+   </children>
+</AnchorPane>

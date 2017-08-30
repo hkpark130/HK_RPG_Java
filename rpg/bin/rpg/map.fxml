@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<ScrollPane fx:id="mapScroll" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" pannable="true" prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="rpg.MapController">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="2000.0" prefWidth="3000.0">
+         <cursor>
+            <Cursor fx:constant="CLOSED_HAND" />
+         </cursor>
+         <children>
+            <ImageView fitHeight="2000.0" fitWidth="3000.0" pickOnBounds="true" preserveRatio="true">
+               <cursor>
+                  <Cursor fx:constant="CLOSED_HAND" />
+               </cursor>
+               <image>
+                  <Image url="@../../images/map.jpg" />
+               </image>
+            </ImageView>
+            <Button fx:id="btnFinal1" layoutX="2431.0" layoutY="245.0" mnemonicParsing="false" text="의식장-boss" textFill="#ee00af">
+               <effect>
+                  <InnerShadow color="#788790" />
+               </effect>
+            </Button>
+            <Button fx:id="btnFinal" layoutX="2436.0" layoutY="442.0" mnemonicParsing="false" text="의식장-1" textFill="#ee00af">
+               <effect>
+                  <InnerShadow color="#788790" />
+               </effect>
+            </Button>
+            <Button fx:id="btnCa2" layoutX="2557.0" layoutY="624.0" mnemonicParsing="false" text="마왕성 인근-boss" textFill="#ee00af">
+               <effect>
+                  <InnerShadow color="#788790" />
+               </effect>
+            </Button>
+            <Button fx:id="btnCa1" layoutX="2235.0" layoutY="735.0" mnemonicParsing="false" text="마왕성 인근-2" textFill="#ee00af">
+               <effect>
+                  <InnerShadow color="#788790" />
+               </effect>
+            </Button>
+            <Button fx:id="btnCa" layoutX="2538.0" layoutY="853.0" mnemonicParsing="false" text="마왕성 인근-1" textFill="#ee00af">
+               <effect>
+                  <InnerShadow color="#788790" />
+               </effect>
+            </Button>
+            <Button fx:id="btnDerelict1" layoutX="1399.0" layoutY="1498.0" mnemonicParsing="false" text="황무지-boss" textFill="#a88228">
+               <effect>
+                  <InnerShadow color="#90690f" />
+               </effect>
+            </Button>
+            <Button fx:id="btnIce2" layoutX="2230.0" layoutY="921.0" mnemonicParsing="false" text="전초기지-boss" textFill="#ababab">
+               <effect>
+                  <InnerShadow color="#788790" />
+               </effect>
+            </Button>
+            <Button fx:id="btnIce1" layoutX="2352.0" layoutY="1074.0" mnemonicParsing="false" text="전초기지-2" textFill="#ababab">
+               <effect>
+                  <InnerShadow color="#788790" />
+               </effect>
+            </Button>
+            <Button fx:id="btnRockyMountain2" layoutX="88.0" layoutY="1373.0" mnemonicParsing="false" text="밀림-boss">
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </Button>
+            <Button fx:id="btnRockyMountain1" layoutX="378.0" layoutY="1344.0" mnemonicParsing="false" text="밀림-2">
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </Button>
+            <Button fx:id="btnCanyon2" layoutX="968.0" layoutY="824.0" mnemonicParsing="false" text="숲-boss" textFill="#b92121">
+               <effect>
+                  <InnerShadow color="#ff4949" />
+               </effect>
+            </Button>
+            <Button fx:id="btnCanyon1" layoutX="1389.0" layoutY="524.0" mnemonicParsing="false" text="숲-2" textFill="#b92121">
+               <effect>
+                  <InnerShadow color="#ff4949" />
+               </effect>
+            </Button>
+            <Button fx:id="btnIce" layoutX="2090.0" layoutY="1196.0" mnemonicParsing="false" text="전초기지-1" textFill="#ababab">
+               <effect>
+                  <InnerShadow color="#788790" />
+               </effect>
+            </Button>
+            <Button fx:id="btnDerelict" layoutX="1014.0" layoutY="1749.0" mnemonicParsing="false" text="황무지-1" textFill="#a88228">
+               <effect>
+                  <InnerShadow color="#90690f" />
+               </effect>
+            </Button>
+            <Button fx:id="btnSea" layoutX="741.0" layoutY="319.0" mnemonicParsing="false" text="Seaport" textFill="#3838c3">
+               <effect>
+                  <InnerShadow color="#4890dd" />
+               </effect>
+            </Button>
+            <Button fx:id="btnSilver" layoutX="142.0" layoutY="398.0" mnemonicParsing="false" text="SilverDelia" textFill="#39b237">
+               <effect>
+                  <InnerShadow color="#6cff47" />
+               </effect>
+            </Button>
+            <Button fx:id="btnCanyon" layoutX="1184.0" layoutY="434.0" mnemonicParsing="false" text="숲-1" textFill="#b92121">
+               <effect>
+                  <InnerShadow color="#ff4949" />
+               </effect>
+            </Button>
+            <Button fx:id="btnRockyMountain" layoutX="401.0" layoutY="1196.0" mnemonicParsing="false" text="밀림-1">
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </Button>
+         </children></AnchorPane>
+  </content>
+</ScrollPane>

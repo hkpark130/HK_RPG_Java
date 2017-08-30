@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="490.0" prefWidth="850.0" snapToPixel="false" style="-fx-padding: 0;" stylesheets="@interface.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="rpg.TownController">
+   <padding>
+        <javafx.geometry.Insets bottom="0" left="0" right="0" top="0" />                 
+    </padding>
+   
+   <children>
+      <ImageView fitHeight="800.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/infotable.png" />
+         </image>
+      </ImageView>
+      <ScrollPane fx:id="scrollPane" layoutX="150.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" pannable="true" prefHeight="507.5" prefWidth="700.0" style="-fx-padding: 0;">
+         <content>
+            <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="490.0" prefWidth="1530.0" snapToPixel="false" style="-fx-padding: 0;">
+               <children>
+                  <ImageView fitHeight="490.0" fitWidth="1530.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../images/town.jpg" />
+                     </image>
+                  </ImageView>
+                  <Button fx:id="btnHall" graphicTextGap="7.0" layoutX="254.0" layoutY="154.0" mnemonicParsing="false" opacity="0.7" text="회관">
+                     <effect>
+                        <Reflection />
+                     </effect>
+                  </Button>
+                  <Button fx:id="btnStore" graphicTextGap="7.0" layoutX="1229.0" layoutY="393.0" mnemonicParsing="false" opacity="0.7" text="상점" textFill="#ff00f6">
+                     <effect>
+                        <Reflection />
+                     </effect>
+                  </Button>
+                  <Button fx:id="btnRest" graphicTextGap="7.0" layoutX="1417.0" layoutY="190.0" mnemonicParsing="false" opacity="0.7" text="여관" textFill="#0026ff">
+                     <effect>
+                        <Reflection />
+                     </effect>
+                  </Button>
+                  <Button fx:id="btnOutside" graphicTextGap="7.0" layoutX="650.0" layoutY="378.0" mnemonicParsing="false" opacity="0.7" text="마을 나가기" textFill="RED">
+                     <effect>
+                        <Reflection />
+                     </effect>
+                  </Button>
+               </children>
+               <cursor>
+                  <Cursor fx:constant="CLOSED_HAND" />
+               </cursor>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+      <Button id="info" fx:id="btnInfo" alignment="CENTER" layoutX="11.0" layoutY="62.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="70.0" prefWidth="130.0" textFill="#413acd">
+         <font>
+            <Font name="Yj GABI Bold" size="30.0" />
+         </font>
+      </Button>
+      <Button id="epi" fx:id="developer" alignment="CENTER" layoutX="10.0" layoutY="279.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="70.0" prefWidth="130.0" textFill="#379e1f">
+         <font>
+            <Font name="Yj GABI Bold" size="30.0" />
+         </font>
+      </Button>
+      <Button id="inven" fx:id="btnInven" alignment="CENTER" layoutX="11.0" layoutY="175.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="70.0" prefWidth="130.0" textFill="#20a5c3">
+         <font>
+            <Font name="Yj GABI Bold" size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnPlay" graphicTextGap="7.0" layoutX="37.0" layoutY="381.0" mnemonicParsing="false" onAction="#bgmPlay" text="BGM 재생">
+         <effect>
+            <Reflection />
+         </effect>
+      </Button>
+      <Button fx:id="btnStop" graphicTextGap="7.0" layoutX="37.0" layoutY="424.0" mnemonicParsing="false" onAction="#bgmStop" text="BGM 중지">
+         <effect>
+            <Reflection />
+         </effect>
+      </Button>
+   </children>
+   <rotationAxis>
+      <Point3D />
+   </rotationAxis>
+</AnchorPane>

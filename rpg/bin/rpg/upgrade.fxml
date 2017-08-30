@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="628.0" prefWidth="325.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutX="5.0" layoutY="13.0" prefHeight="50.0" prefWidth="300.0" />
+      <AnchorPane layoutX="15.0" layoutY="23.0" prefHeight="50.0" prefWidth="300.0">
+         <children>
+            <ImageView id="upItemImg1" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../reImages/invenEmpty.jpg" />
+               </image>
+            </ImageView>
+            <Label id="upItemName1" layoutX="59.0" layoutY="3.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label id="upItemGrade1" layoutX="59.0" layoutY="26.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label id="upItemCost1" layoutX="153.0" layoutY="26.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Button id="btnUpgrade1" layoutX="220.0" layoutY="3.0" mnemonicParsing="false" text="강화" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="15.0" layoutY="73.0" prefHeight="50.0" prefWidth="300.0">
+         <children>
+            <ImageView id="upItemImg2" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../reImages/invenEmpty.jpg" />
+               </image>
+            </ImageView>
+            <Label id="upItemName2" layoutX="59.0" layoutY="3.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label id="upItemGrade2" layoutX="59.0" layoutY="26.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label id="upItemCost2" layoutX="153.0" layoutY="26.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Button id="btnUpgrade2" layoutX="220.0" layoutY="3.0" mnemonicParsing="false" text="강화" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="15.0" layoutY="123.0" prefHeight="50.0" prefWidth="300.0">
+         <children>
+            <ImageView id="upItemImg3" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../reImages/invenEmpty.jpg" />
+               </image>
+            </ImageView>
+            <Label id="upItemName3" layoutX="59.0" layoutY="3.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label id="upItemGrade3" layoutX="59.0" layoutY="26.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label id="upItemCost3" layoutX="153.0" layoutY="26.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Button id="btnUpgrade3" layoutX="220.0" layoutY="3.0" mnemonicParsing="false" text="강화" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="15.0" layoutY="173.0" prefHeight="50.0" prefWidth="300.0">
+         <children>
+            <ImageView id="upItemImg4" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../reImages/invenEmpty.jpg" />
+               </image>
+            </ImageView>
+            <Label id="upItemName4" layoutX="59.0" layoutY="3.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label id="upItemGrade4" layoutX="59.0" layoutY="26.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label id="upItemCost4" layoutX="153.0" layoutY="26.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Button id="btnUpgrade4" layoutX="220.0" layoutY="3.0" mnemonicParsing="false" text="강화" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="15.0" layoutY="223.0" prefHeight="50.0" prefWidth="300.0">
+         <children>
+            <ImageView id="upItemImg5" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../reImages/invenEmpty.jpg" />
+               </image>
+            </ImageView>
+            <Label id="upItemName5" layoutX="59.0" layoutY="3.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label id="upItemGrade5" layoutX="59.0" layoutY="26.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label id="upItemCost5" layoutX="153.0" layoutY="26.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Button id="btnUpgrade5" layoutX="220.0" layoutY="3.0" mnemonicParsing="false" text="강화" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="15.0" layoutY="273.0" prefHeight="50.0" prefWidth="300.0">
+         <children>
+            <ImageView id="upItemImg6" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../reImages/invenEmpty.jpg" />
+               </image>
+            </ImageView>
+            <Label id="upItemName6" layoutX="59.0" layoutY="3.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label id="upItemGrade6" layoutX="59.0" layoutY="26.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label id="upItemCost6" layoutX="153.0" layoutY="26.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Button id="btnUpgrade6" layoutX="220.0" layoutY="3.0" mnemonicParsing="false" text="강화" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="15.0" layoutY="323.0" prefHeight="50.0" prefWidth="300.0">
+         <children>
+            <ImageView id="upItemImg7" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../reImages/invenEmpty.jpg" />
+               </image>
+            </ImageView>
+            <Label id="upItemName7" layoutX="59.0" layoutY="3.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label id="upItemGrade7" layoutX="59.0" layoutY="26.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label id="upItemCost7" layoutX="153.0" layoutY="26.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Button id="btnUpgrade7" layoutX="220.0" layoutY="3.0" mnemonicParsing="false" text="강화" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="15.0" layoutY="373.0" prefHeight="50.0" prefWidth="300.0">
+         <children>
+            <ImageView id="upItemImg8" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../reImages/invenEmpty.jpg" />
+               </image>
+            </ImageView>
+            <Label id="upItemName8" layoutX="59.0" layoutY="3.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label id="upItemGrade8" layoutX="59.0" layoutY="26.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label id="upItemCost8" layoutX="153.0" layoutY="26.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Button id="btnUpgrade8" layoutX="220.0" layoutY="3.0" mnemonicParsing="false" text="강화" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="15.0" layoutY="423.0" prefHeight="50.0" prefWidth="300.0">
+         <children>
+            <ImageView id="upItemImg9" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../reImages/invenEmpty.jpg" />
+               </image>
+            </ImageView>
+            <Label id="upItemName9" layoutX="59.0" layoutY="3.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label id="upItemGrade9" layoutX="59.0" layoutY="26.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label id="upItemCost9" layoutX="153.0" layoutY="26.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Button id="btnUpgrade9" layoutX="220.0" layoutY="3.0" mnemonicParsing="false" text="강화" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="15.0" layoutY="473.0" prefHeight="50.0" prefWidth="300.0">
+         <children>
+            <ImageView id="upItemImg10" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../reImages/invenEmpty.jpg" />
+               </image>
+            </ImageView>
+            <Label id="upItemName10" layoutX="59.0" layoutY="3.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label id="upItemGrade10" layoutX="59.0" layoutY="26.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label id="upItemCost10" layoutX="153.0" layoutY="26.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Button id="btnUpgrade10" layoutX="220.0" layoutY="3.0" mnemonicParsing="false" text="강화" />
+         </children>
+      </AnchorPane>
+      <Button id="exit" layoutX="291.0" layoutY="3.0" mnemonicParsing="false" text="X">
+         <effect>
+            <SepiaTone />
+         </effect>
+      </Button>
+      <AnchorPane layoutX="15.0" layoutY="523.0" prefHeight="50.0" prefWidth="300.0">
+         <children>
+            <ImageView id="upItemImg11" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../reImages/invenEmpty.jpg" />
+               </image>
+            </ImageView>
+            <Label id="upItemName11" layoutX="59.0" layoutY="3.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label id="upItemGrade11" layoutX="59.0" layoutY="26.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label id="upItemCost11" layoutX="153.0" layoutY="26.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Button id="btnUpgrade11" layoutX="220.0" layoutY="3.0" mnemonicParsing="false" text="강화" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="15.0" layoutY="573.0" prefHeight="50.0" prefWidth="300.0">
+         <children>
+            <ImageView id="upItemImg12" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../reImages/invenEmpty.jpg" />
+               </image>
+            </ImageView>
+            <Label id="upItemName12" layoutX="59.0" layoutY="3.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label id="upItemGrade12" layoutX="59.0" layoutY="26.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label id="upItemCost12" layoutX="153.0" layoutY="26.0">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Button id="btnUpgrade12" layoutX="220.0" layoutY="3.0" mnemonicParsing="false" text="강화" />
+         </children>
+      </AnchorPane>
+   </children>
+   <padding>
+      <Insets left="5.0" top="5.0" />
+   </padding>
+</AnchorPane>

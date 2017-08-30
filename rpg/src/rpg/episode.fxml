@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView id="epiBackImg" fitHeight="400.0" fitWidth="600.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../images/castle.png" />
+         </image></ImageView>
+      <TextArea id="epiText" layoutY="170.0" opacity="0.79" prefHeight="200.0" prefWidth="600.0" text="다음을 클릭하세요.">
+         <font>
+            <Font name="HYGothic-Extra" size="26.0" />
+         </font>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </TextArea>
+      <ImageView id="epiLeftImg" fitHeight="172.0" fitWidth="200.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView id="epiRightImg" fitHeight="172.0" fitWidth="200.0" layoutX="400.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true" />
+      <Button id="epiBtn" layoutX="245.0" layoutY="370.0" mnemonicParsing="false" text="다음">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets></Button>
+      <Button id="epiOut" layoutX="305.0" layoutY="370.0" mnemonicParsing="false" text="나가기">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Button>
+   </children>
+</AnchorPane>

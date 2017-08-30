@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="330.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="rpg.NetworkController">
+   <children>
+      <ImageView fitHeight="330.0" fitWidth="500.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/sea.JPG" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnStart" layoutX="440.0" layoutY="286.0" mnemonicParsing="false" opacity="0.72" prefHeight="20.0" prefWidth="60.0" text="Start" textFill="RED">
+         <effect>
+            <InnerShadow color="#0002ff" />
+         </effect></Button>
+      <Button fx:id="btnSend" layoutX="440.0" layoutY="309.0" mnemonicParsing="false" opacity="0.72" prefHeight="20.0" prefWidth="60.0" text="Send" />
+      <TextField fx:id="txtInput" layoutY="310.0" opacity="0.61" prefHeight="23.0" prefWidth="440.0" />
+      <TextArea fx:id="txtDisplay" opacity="0.7" prefHeight="310.0" prefWidth="440.0" />
+      <Button fx:id="btnExit" layoutX="440.0" mnemonicParsing="false" opacity="0.7" prefHeight="23.0" prefWidth="60.0" text="Exit" />
+   </children>
+</AnchorPane>

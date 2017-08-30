@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane pickOnBounds="false" prefHeight="290.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="290.0" fitWidth="250.0" pickOnBounds="true">
+         <image>
+            <Image url="@../reImages/hallPeople.png" />
+         </image>
+         <effect>
+            <DropShadow />
+         </effect>
+      </ImageView>
+      <TextArea id="contents" layoutX="250.0" prefHeight="210.0" prefWidth="200.0" text="ㄴㅁㅇㄴㅁㅇ">
+         <effect>
+            <DropShadow color="#755b30" spread="0.49">
+               <input>
+                  <ColorAdjust hue="0.3" saturation="0.17" />
+               </input>
+            </DropShadow>
+         </effect>
+         <font>
+            <Font size="22.0" />
+         </font>
+      </TextArea>
+      <Button id="success" layoutX="265.0" layoutY="238.0" mnemonicParsing="false" text="퀘스트 완료">
+         <effect>
+            <DropShadow>
+               <input>
+                  <ImageInput>
+                     <source>
+                        <Image url="@../../images/complete.jpg" />
+                     </source>
+                  </ImageInput>
+               </input>
+            </DropShadow>
+         </effect>
+      </Button>
+      <Button id="exit" layoutX="359.0" layoutY="238.0" mnemonicParsing="false" text="나가기">
+         <effect>
+            <SepiaTone>
+               <input>
+                  <DropShadow>
+                     <input>
+                        <ImageInput>
+                           <source>
+                              <Image url="@../../images/exit.jpg" />
+                           </source>
+                        </ImageInput>
+                     </input>
+                  </DropShadow>
+               </input>
+            </SepiaTone>
+         </effect>
+      </Button>
+      <Label layoutX="247.0" layoutY="266.0" text="에피소드를 확인해주세요">
+         <font>
+            <Font name="HYGothic-Medium" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

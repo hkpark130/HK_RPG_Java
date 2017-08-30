@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="207.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="14.0" layoutY="20.0" text="학번">
+         <font>
+            <Font name="휴먼고딕" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="46.0" text="이름">
+         <font>
+            <Font name="휴먼고딕" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="9.0" layoutY="73.0" text="전공반">
+         <font>
+            <Font name="휴먼고딕" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="7.0" layoutY="98.0" text="사용기술">
+         <font>
+            <Font name="휴먼고딕" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="67.0" layoutY="20.0" text="1301127" />
+      <Label layoutX="67.0" layoutY="46.0" text="박현경" />
+      <Label layoutX="67.0" layoutY="73.0" text="2-WDJ" />
+      <TextArea id="comm" layoutX="69.0" layoutY="96.0" prefHeight="98.0" prefWidth="124.0" text="JAVA_FX&#10;Thread&#10;jdbc(oracle)&#10;Interface&#10;socket&#10;네트워크&#10;리플렉션&#10;Scene Builder&#10;&#10;" />
+   </children>
+</AnchorPane>

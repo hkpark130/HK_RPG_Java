@@ -1,0 +1,35 @@
+#inven{
+	-fx-graphic: url('../../images/inventory.png');
+	-fx-background-color: transparent;
+	
+}
+#inven:hover {
+	-fx-graphic: url('../../images/inventoryover.png');
+}
+#inven:pressed {
+	-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 10, 0.0 , 5 , 5 );
+}
+
+#info{
+	-fx-graphic: url('../../images/info.png');
+	-fx-background-color: transparent;
+	
+}
+#info:hover {
+	-fx-graphic: url('../../images/infoover.png');
+}
+#info:pressed {
+	-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 10, 0.0 , 5 , 5 );
+}
+
+#epi{
+	-fx-graphic: url('../../images/episode.png');
+	-fx-background-color: transparent;
+	
+}
+#epi:hover {
+	-fx-graphic: url('../../images/episodeover.png');
+}
+#epi:pressed {
+	-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 10, 0.0 , 5 , 5 );
+}

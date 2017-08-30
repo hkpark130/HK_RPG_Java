@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="110.0" prefWidth="80.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="80.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/drop.jpg" />
+         </image>
+      </ImageView>
+      <Button id="btnGet" layoutX="8.0" layoutY="79.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="19.0" text="가지기">
+         <effect>
+            <ImageInput>
+               <source>
+                  <Image url="@../../images/get.jpg" />
+               </source>
+            </ImageInput>
+         </effect>
+      </Button>
+      <Button id="btnThrow" layoutX="43.0" layoutY="77.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="19.0" text="가지기">
+         <effect>
+            <ImageInput>
+               <source>
+                  <Image url="@../../images/throw.jpg" />
+               </source>
+            </ImageInput>
+         </effect>
+      </Button>
+      <ImageView id="dropItemImg" fitHeight="50.0" fitWidth="50.0" layoutX="14.0" layoutY="14.0" opacity="0.7" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../reImages/atk2.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

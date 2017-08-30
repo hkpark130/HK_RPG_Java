@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.media.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="305.0" prefWidth="520.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ScrollPane prefHeight="300.0" prefWidth="368.0">
+         <content>
+            <AnchorPane prefHeight="660.0" prefWidth="350.0">
+               <children>
+                  <Label id="nameItem1" layoutX="57.0" layoutY="8.0" prefHeight="50.0" prefWidth="239.0" text="HP Potion" textFill="RED">
+                     <font>
+                        <Font size="33.0" />
+                     </font>
+                  </Label>
+                  <ImageView id="imgItem1" fitHeight="50.0" fitWidth="50.0" layoutX="6.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../reImages/hp.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="68.0" layoutY="40.0" />
+                  <Button id="ItemBuy1" layoutX="298.0" layoutY="19.0" mnemonicParsing="false" text="구입" />
+                  <Button id="ItemBuy2" layoutX="298.0" layoutY="69.0" mnemonicParsing="false" text="구입" />
+                  <ImageView id="imgItem2" fitHeight="50.0" fitWidth="50.0" layoutX="6.0" layoutY="58.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../reImages/mp.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label id="nameItem2" layoutX="57.0" layoutY="58.0" prefHeight="50.0" prefWidth="239.0" text="MP Potion">
+                     <font>
+                        <Font size="33.0" />
+                     </font>
+                  </Label>
+                  <Button id="ItemBuy3" layoutX="298.0" layoutY="119.0" mnemonicParsing="false" text="구입" />
+                  <ImageView id="imgItem3" fitHeight="50.0" fitWidth="50.0" layoutX="6.0" layoutY="108.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../reImages/hp.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label id="nameItem3" layoutX="57.0" layoutY="108.0" prefHeight="50.0" prefWidth="239.0" text="HP Potion">
+                     <font>
+                        <Font size="33.0" />
+                     </font>
+                  </Label>
+                  <Button id="ItemBuy4" layoutX="298.0" layoutY="169.0" mnemonicParsing="false" text="구입" />
+                  <ImageView id="imgItem4" fitHeight="50.0" fitWidth="50.0" layoutX="6.0" layoutY="158.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../reImages/hp.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label id="nameItem4" layoutX="57.0" layoutY="158.0" prefHeight="50.0" prefWidth="239.0" text="HP Potion">
+                     <font>
+                        <Font size="33.0" />
+                     </font>
+                  </Label>
+                  <Button id="ItemBuy5" layoutX="298.0" layoutY="219.0" mnemonicParsing="false" text="구입" />
+                  <ImageView id="imgItem5" fitHeight="50.0" fitWidth="50.0" layoutX="6.0" layoutY="208.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../reImages/hp.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label id="nameItem5" layoutX="57.0" layoutY="208.0" prefHeight="50.0" prefWidth="239.0" text="HP Potion">
+                     <font>
+                        <Font size="33.0" />
+                     </font>
+                  </Label>
+                  <Button id="ItemBuy6" layoutX="298.0" layoutY="269.0" mnemonicParsing="false" text="구입" />
+                  <ImageView id="imgItem6" fitHeight="50.0" fitWidth="50.0" layoutX="6.0" layoutY="258.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../reImages/hp.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label id="nameItem6" layoutX="57.0" layoutY="258.0" prefHeight="50.0" prefWidth="239.0" text="HP Potion">
+                     <font>
+                        <Font size="33.0" />
+                     </font>
+                  </Label>
+                  <Button id="ItemBuy7" layoutX="298.0" layoutY="319.0" mnemonicParsing="false" text="구입" />
+                  <ImageView id="imgItem7" fitHeight="50.0" fitWidth="50.0" layoutX="6.0" layoutY="308.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../reImages/hp.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label id="nameItem7" layoutX="57.0" layoutY="305.0" prefHeight="50.0" prefWidth="239.0" text="HP Potion">
+                     <font>
+                        <Font size="33.0" />
+                     </font>
+                  </Label>
+                  <Button id="ItemBuy8" layoutX="298.0" layoutY="369.0" mnemonicParsing="false" text="구입" />
+                  <ImageView id="imgItem8" fitHeight="50.0" fitWidth="50.0" layoutX="6.0" layoutY="358.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../reImages/hp.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label id="nameItem8" layoutX="57.0" layoutY="358.0" prefHeight="50.0" prefWidth="239.0" text="HP Potion">
+                     <font>
+                        <Font size="33.0" />
+                     </font>
+                  </Label>
+                  <Label id="nameItem13" layoutX="57.0" layoutY="608.0" prefHeight="50.0" prefWidth="239.0" text="HP Potion">
+                     <font>
+                        <Font size="33.0" />
+                     </font>
+                  </Label>
+                  <ImageView id="imgItem13" fitHeight="50.0" fitWidth="50.0" layoutX="6.0" layoutY="608.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../reImages/hp.jpg" />
+                     </image>
+                  </ImageView>
+                  <Button id="ItemBuy13" layoutX="298.0" layoutY="619.0" mnemonicParsing="false" text="구입" />
+                  <Label id="nameItem12" layoutX="57.0" layoutY="558.0" prefHeight="50.0" prefWidth="239.0" text="HP Potion">
+                     <font>
+                        <Font size="33.0" />
+                     </font>
+                  </Label>
+                  <ImageView id="imgItem12" fitHeight="50.0" fitWidth="50.0" layoutX="6.0" layoutY="558.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../reImages/hp.jpg" />
+                     </image>
+                  </ImageView>
+                  <Button id="ItemBuy12" layoutX="298.0" layoutY="569.0" mnemonicParsing="false" text="구입" />
+                  <Label id="nameItem11" layoutX="57.0" layoutY="508.0" prefHeight="50.0" prefWidth="239.0" text="HP Potion">
+                     <font>
+                        <Font size="33.0" />
+                     </font>
+                  </Label>
+                  <ImageView id="imgItem11" fitHeight="50.0" fitWidth="50.0" layoutX="6.0" layoutY="508.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../reImages/hp.jpg" />
+                     </image>
+                  </ImageView>
+                  <Button id="ItemBuy11" layoutX="298.0" layoutY="519.0" mnemonicParsing="false" text="구입" />
+                  <Label id="nameItem10" layoutX="57.0" layoutY="458.0" prefHeight="50.0" prefWidth="239.0" text="HP Potion">
+                     <font>
+                        <Font size="33.0" />
+                     </font>
+                  </Label>
+                  <ImageView id="imgItem10" fitHeight="50.0" fitWidth="50.0" layoutX="6.0" layoutY="458.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../reImages/hp.jpg" />
+                     </image>
+                  </ImageView>
+                  <Button id="ItemBuy10" layoutX="298.0" layoutY="469.0" mnemonicParsing="false" text="구입" />
+                  <Label id="nameItem9" layoutX="57.0" layoutY="408.0" prefHeight="50.0" prefWidth="239.0" text="HP Potion">
+                     <font>
+                        <Font size="33.0" />
+                     </font>
+                  </Label>
+                  <ImageView id="imgItem9" fitHeight="50.0" fitWidth="50.0" layoutX="6.0" layoutY="408.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../reImages/hp.jpg" />
+                     </image>
+                  </ImageView>
+                  <Button id="ItemBuy9" layoutX="298.0" layoutY="419.0" mnemonicParsing="false" text="구입" />
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+      <AnchorPane layoutX="370.0" prefHeight="200.0" prefWidth="150.0">
+         <children>
+            <Label id="infAtk" layoutX="6.0" layoutY="82.0" text="ATK" />
+            <Label id="infDef" layoutX="6.0" layoutY="119.0" text="DEF" />
+            <Label id="infCost" layoutX="6.0" layoutY="157.0" text="COST" />
+            <Label id="infGrade" layoutX="6.0" layoutY="47.0" text="GRADE" />
+            <Label id="infName" layoutX="5.0" layoutY="17.0" text="name">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Button id="btnExit" layoutX="121.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="28.0" text="X">
+               <effect>
+                  <SepiaTone />
+               </effect>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="370.0" layoutY="200.0" prefHeight="100.0" prefWidth="150.0">
+         <children>
+            <ImageView fitHeight="50.0" fitWidth="50.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../reImages/gold.JPG" />
+               </image>
+            </ImageView>
+            <Label layoutX="25.0" prefHeight="50.0" prefWidth="103.0" text="GOLD" textFill="#9fa139">
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </Label>
+            <Label id="myGold" layoutX="56.0" layoutY="63.0" text="Label" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
