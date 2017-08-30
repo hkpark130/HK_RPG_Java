@@ -2,5 +2,5 @@
 
 Java_FXで開発しました。
 
-動画のURLです。
+下は動画のURLです。＜ｂｒ＞
 http://cafe.naver.com/thisisjava/11141
